@@ -1,7 +1,6 @@
 package me.fnfal113.fn_falsmachinery;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-import me.fnfal113.fn_falsmachinery.FN_FALSMachinery;
 import me.fnfal113.fn_falsmachinery.Items.FnItemRecipes;
 import me.fnfal113.fn_falsmachinery.Machines.*;
 

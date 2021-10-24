@@ -20,9 +20,9 @@ public class FnItems {
             "59358703ab7727df3324336969e81d6f92b7aa79edb966c0be91ab161bad1f01")),
             "&eFN_FAL113's Machinery") );
 
-    public static final SubItemGroup MACHINES = new SubItemGroup(new NamespacedKey(FN_FALSMachinery.getInstance(), "POWER_GENERATORS"), FN_MACHINERY, new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromHashCode(
+    public static final SubItemGroup MACHINES = new SubItemGroup(new NamespacedKey(FN_FALSMachinery.getInstance(), "MACHINERY"), FN_MACHINERY, new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromHashCode(
             "4a7d54ca45a398c364cebbffb5390ce5e0345e0c7bc5e863acabf57d1342c4bd")), "Machines"));
-    public static final SubItemGroup ITEMS = new SubItemGroup(new NamespacedKey(FN_FALSMachinery.getInstance(), "Items"), FN_MACHINERY, new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromHashCode(
+    public static final SubItemGroup ITEMS = new SubItemGroup(new NamespacedKey(FN_FALSMachinery.getInstance(), "MACHINERY_ITEMS"), FN_MACHINERY, new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromHashCode(
             "8245a1c3e8d7c3d59d05e3634b04af4cbf8d11b70e2a40e2e6364386db49e737")), "Items"));
 
     public static final ItemGroup FN_MACHINERIES = new ItemGroup(
@@ -101,7 +101,7 @@ public class FnItems {
     public static final SlimefunItemStack FN_FAL_CONDENSER_1 =
             new SlimefunItemStack("FN_FAL_CONDENSER_1",
                     Material.YELLOW_STAINED_GLASS, "&dFN Electric Ingot Condenser I",
-                    "", "&eA machinery that can condense two ingots to",
+                    "", "&eA machinery that can condense two ingots or items to",
                     "&eone biological ingot",
                     "" ,
                     "&d&oFN Machinery",
@@ -112,7 +112,7 @@ public class FnItems {
     public static final SlimefunItemStack FN_FAL_CONDENSER_2 =
             new SlimefunItemStack("FN_FAL_CONDENSER_2",
                     Material.YELLOW_STAINED_GLASS, "&dFN Electric Ingot Condenser II",
-                    "", "&eA machinery that can condense two ingots to",
+                    "", "&eA machinery that can condense two ingots or items to",
                     "&eone biological ingot",
                     "" ,
                     "&d&oFN Machinery",
@@ -123,7 +123,7 @@ public class FnItems {
     public static final SlimefunItemStack FN_FAL_CONDENSER_3 =
             new SlimefunItemStack("FN_FAL_CONDENSER_3",
                     Material.YELLOW_STAINED_GLASS, "&dFN Electric Ingot Condenser III",
-                    "", "&eA machinery that can condense two ingots to",
+                    "", "&eA machinery that can condense two ingots or items to",
                     "&eone biological ingot",
                     "" ,
                     "&d&oFN Machinery",

@@ -14,7 +14,7 @@ public final class FN_FALSMachinery extends JavaPlugin implements SlimefunAddon 
         getLogger().info("************************************************************");
         getLogger().info("*          FN Machinery - Created by FN_FAL113             *");
         getLogger().info("*   Custom Slimefun Addon that adds Machines and Stuffs!   *");
-        getLogger().info("*         pm me on discord if there are any issues         *");
+        getLogger().info("*         Add me on discord if there are any issues        *");
         getLogger().info("*                       FN_FAL#7779                        *");
         getLogger().info("************************************************************");
 
